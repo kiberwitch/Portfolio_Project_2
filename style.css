@@ -1,0 +1,205 @@
+html,
+body {
+  /*Убираем отступы старницы сайта*/
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", serif;
+}
+
+.container_saita {
+  /*Контейнер для того чтобы задать боковые отступы */
+  background-color: rgb(255, 255, 255);
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 4910px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  /*Стили для верхней навигации*/
+  font-size: 28px;
+  list-style-type: none;
+  padding: 0 41px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+  li {
+    margin-right: 60px;
+  }
+}
+
+.img_main {
+  all: unset;
+}
+
+.container_article_1 {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 1725px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 90px;
+  margin-left: 96px;
+  color: #de343d;
+}
+
+.img_crosovki {
+  display: flex;
+  margin-left: 90px;
+  gap: 40px;
+}
+
+figure {
+  all: unset;
+}
+
+img {
+  width: 400px;
+  height: 370px;
+}
+
+p {
+  margin: 6px;
+}
+
+.nike {
+  font-size: 30px;
+  color: #5f5f5fc5;
+}
+
+.name {
+  font-size: 35px;
+  color: black;
+}
+
+.price {
+  font-size: 30px;
+  color: black;
+}
+
+.size {
+  font-size: 25px;
+  color: #de343d;
+}
+
+.button_main {
+  all: unset;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #ffffff;
+  color: #5f5f5fc5;
+  padding: 10px 30px;
+  font-size: 20px;
+  border: 2px solid #5f5f5fc5;
+}
+
+.container_article2 {
+  width: 1920px;
+  height: 660px;
+  overflow: hidden;
+}
+
+.main_2 {
+  width: 1920px;
+  height: 1920px;
+}
+
+.container_article3 {
+  width: 1920px;
+  overflow: hidden;
+}
+
+.main_3 {
+  width: 1920px;
+  height: 940px;
+}
+
+.container_article_2 {
+  margin-top: 650px;
+  width: 1920px;
+  height: 1879px;
+}
+
+.container_KROSOVKI {
+  margin-top: 200px;
+  padding-left: 90px;
+  width: 1920px;
+  height: 1920px;
+  display: flex; /* Включаем Flexbox */
+  justify-content: center; /* Выравниваем по горизонтали по центру */
+  align-items: center; /* Выравниваем по вертикали по центру */
+}
+
+.img_crosovki_1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center; /* Выравниваем картинки по центру внутри контейнера */
+}
+
+.button_main_2 {
+  all: unset;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #ffffff;
+  color: #000000c5;
+  padding: 10px 30px;
+  font-size: 20px;
+  border: 2px solid #000000c5;
+}
+
+.footer {
+  background-color: #3a3a3a67; /* Темный фон */
+  color: #000000; /* Белый текст */
+  padding: 40px 0; /* Отступы сверху и снизу */
+}
+
+/* Контент футера */
+.footer-content {
+  display: flex;
+  justify-content: space-around; /* Равномерное распределение блоков */
+  flex-wrap: wrap; /* Перенос на новую строку, если не хватает места */
+  max-width: 1200px; /* Максимальная ширина контента */
+  margin: 0 auto; /* Центрирование */
+  padding: 0 20px; /* Отступы по бокам */
+}
+
+/* Стили для каждого блока */
+.footer-section {
+  flex: 1; /* Равномерное распределение пространства */
+  min-width: 250px; /* Минимальная ширина блока */
+  margin: 10px 0; /* Отступы между блоками */
+}
+
+.footer-section h3 {
+  margin-bottom: 15px; /* Отступ под заголовком */
+  font-size: 18px; /* Размер заголовка */
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Убираем маркеры списка */
+}
+
+.footer-section a {
+  color: #000000; /* Белый цвет ссылок */
+  text-decoration: none; /* Убираем подчеркивание */
+  transition: color 0.3s ease; /* Плавное изменение цвета */
+}
+
+.footer-bottom {
+  text-align: center; /* Текст по центру */
+  padding: 20px 0; /* Отступы */
+  background-color: #3a3a3a67; /* Темный фон */
+  margin-top: 20px; /* Отступ от основного контента */
+}
